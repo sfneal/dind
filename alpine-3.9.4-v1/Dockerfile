@@ -1,4 +1,3 @@
-# TODO: find smaller base image
 FROM alpine:3.9.4
 
 # Container name of Nginx service
