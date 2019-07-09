@@ -4,8 +4,7 @@ FROM alpine:3.9.4
 ENV nginx_container_name=webserver
 
 # Update OS and install Docker client
-RUN apk update && apk \
-    add \
+RUN apk update && apk add \
     bash \
     docker \
     sudo
