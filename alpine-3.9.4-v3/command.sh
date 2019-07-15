@@ -8,7 +8,10 @@ sudo docker -v
 sleep 15;
 
 # Get names of docker containers with 'nginx' in name
-container_id="$(sudo docker ps -qf "name=${nginx_container_name}")"
+container_id="$(sudo docker ps -qf "name=${container_name}")"
+
+# Display ID of container we're about to execute a command on
+echo "Preparing to restart container with the ID '${container_id}'..."
 
 # Issue reload command to nginx webserver container
 sudo docker exec "${container_id}" "${container_cmd}"
