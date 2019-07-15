@@ -14,4 +14,4 @@ container_id="$(sudo docker ps -qf "name=${container_name}")"
 echo "Preparing to execute command on container with the ID '${container_id}'..."
 
 # Issue reload command to nginx webserver container
-sudo docker exec "${container_id}" "${container_cmd}"
+sudo docker exec "${container_id}" bash "${container_cmd}"
