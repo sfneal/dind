@@ -5,7 +5,7 @@ sudo docker -v
 
 # TODO: replace with check to see if certbot container has stopped
 # Wait for the certbot to finish ACME challenge
-sleep 15;
+sleep 20;
 
 # Get names of docker containers with 'nginx' in name
 container_id="$(sudo docker ps -qf "name=${container_name}")"
