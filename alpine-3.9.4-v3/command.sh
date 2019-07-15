@@ -11,7 +11,7 @@ sleep 15;
 container_id="$(sudo docker ps -qf "name=${container_name}")"
 
 # Display ID of container we're about to execute a command on
-echo "Preparing to restart container with the ID '${container_id}'..."
+echo "Preparing to execute command on container with the ID '${container_id}'..."
 
 # Issue reload command to nginx webserver container
 sudo docker exec "${container_id}" "${container_cmd}"
