@@ -11,4 +11,4 @@ sleep 15;
 container_id="$(sudo docker ps -qf "name=${nginx_container_name}")"
 
 # Issue reload command to nginx webserver container
-sudo docker exec "${container_id}" sh /scripts/reload.sh
+sudo docker exec "${container_id}" "${container_cmd}"
