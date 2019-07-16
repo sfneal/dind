@@ -8,7 +8,7 @@ sudo docker -v
 sleep 30;
 
 # Get names of docker containers with 'nginx' in name
-container_id="$(sudo docker ps -qf "name=${container_name}")"
+container_id="$(sudo docker ps -aq --format {{.Names}} | grep ${container_name})"
 
 # Display ID of container we're about to execute a command on
 echo "Preparing to execute command on container with the ID '${container_id}'..."
