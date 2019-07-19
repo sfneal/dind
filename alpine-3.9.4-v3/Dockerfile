@@ -10,8 +10,8 @@ RUN apk update && apk add \
     docker \
     sudo
 
-# Copy entrypoint and command scripts
-COPY ./command.sh /scripts/command.sh
+# Copy scripts
+COPY ./scripts/ /scripts/
 
 ENTRYPOINT ["bash"]
 CMD ["/scripts/command.sh"]
