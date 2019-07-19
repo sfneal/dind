@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+container_name=${1}
+container_cmd=${2}
 
 # Get names of docker containers with 'nginx' in name
 container_id="$(sudo docker ps -aq --format {{.Names}} | grep ${container_name})"
