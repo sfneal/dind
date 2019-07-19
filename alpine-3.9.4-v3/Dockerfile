@@ -14,4 +14,4 @@ RUN apk update && apk add \
 COPY ./scripts/ /scripts/
 
 ENTRYPOINT ["bash"]
-CMD ["/scripts/command.sh"]
+CMD ["/scripts/entrypoint.sh"]
