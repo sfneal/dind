@@ -5,7 +5,7 @@ sudo docker -v
 
 # TODO: replace with check to see if certbot container has stopped
 # Wait for the certbot to finish ACME challenge
-sleep 60;
+sleep 120;
 
 # Execute Docker command on each container
 for cn in ${container_name}; do
