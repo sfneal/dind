@@ -6,7 +6,7 @@ sleep 20
 
 # Wait for the certbot to finish ACME challenge
 while true; do
-    if [[ $(sh /scripts/is_running.sh ${wait_for_container}) == false ]]; then
+    if [[ $(sh /scripts/is_running.sh ${wait_for_container}) != true ]]; then
         break
     else
         echo "${wait_for_container} is still running... waiting 5 secs then checking again..."
