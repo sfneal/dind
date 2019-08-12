@@ -1,4 +1,4 @@
-FROM alpine:3.9.4
+FROM alpine:3.10
 
 # Container name of Nginx service
 ENV container_name=webserver
