@@ -3,8 +3,20 @@ language: ruby
 services:
   - docker
 
+env:
+  matrix:
+    - TAG=alpine-3.9.4-v1
+    - TAG=alpine-3.9.4-v2
+    - TAG=alpine-3.9.4-v3
+    - TAG=alpine-3.9.4-v4
+    - TAG=alpine-3.10-v1
+    - TAG=alpine-3.12-v1
+
+before_script:
+  - DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
 script:
-  - sh build.sh
+  - docker build -t stephenneal/dind:${TAG} "${DIR}"/${TAG}/
 
 after_script:
   - docker images
