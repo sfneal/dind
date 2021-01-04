@@ -1,4 +1,5 @@
 FROM alpine:3.9.4
+MAINTAINER Stephen Neal <stephen@stephenneal.net>
 
 # Container name of Nginx service
 ENV nginx_container_name=webserver
