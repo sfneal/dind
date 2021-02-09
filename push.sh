@@ -10,3 +10,4 @@ docker push stephenneal/dind:alpine-3.9.4-v3
 docker push stephenneal/dind:alpine-3.9.4-v4
 docker push stephenneal/dind:alpine-3.10-v1
 docker push stephenneal/dind:alpine-3.12-v1
+docker push stephenneal/dind:alpine-3.13-v1
