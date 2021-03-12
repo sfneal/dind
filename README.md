@@ -1,4 +1,4 @@
-# stephenneal/dind
+# sfneal/dind
 
 [![Build Status](https://travis-ci.com/sfneal/dind.svg?branch=master&style=flat-square)](https://travis-ci.com/sfneal/dind)
 [![Total Downloads](https://img.shields.io/docker/pulls/stephenneal/dind?style=flat-square)](https://hub.docker.com/r/stephenneal/dind)
