@@ -9,6 +9,7 @@ env:
     - secure: O2TX6EBmYqkbNZopN/5wfpyKYQNQjurp1tx6h833/DAxxgi9jUMwtGZZl+Ov3rUt6oiC1E8hVFOhxH+mrIUni3CYG6Zw8IixY0kfjhfTLoU1jRZw+FyjHiKPJ1WqcAaxr9cTgikFJ3i1Fk9v1CFCDUlnYxop7AKsgK5LDN+B/sMWPKdZm9IlmtS3KJbpfTYz8oiAxtOZ9wdtsfkxltzJO6tySQNhogrM/ivt4AwwqtSlYRbkbS8NQHkWwk2z/M4U/Gc4Hdyo59egTqZHiLtxGuC8lB6nvFdCEr0CLYwzdWFj0EXIGuxj6fMn5Dvklm1bycZ7JPDRZe7V2spI6HwLRg+zrBYoIJAdYaBD6ZvDgFXASwQu1TfZjp9uBmgSDl2VDlOEtTVO0aLbArt9Nytdfl9nrSPFnKL+UWjvytmAFbTl10fDHBH+ErM8ZIOTJG34UnBwj4cBaKpmVKNw9S4K7y/b6ZOMfNbvZgc8d3G2WIhkrV+y7V0g6441cKssjP3plUw39fp8CdUfHXPRnIPJbTJ/FijvaM49iOII2Sox0AH7QLzgsTQ0iXD8MGcKfVB2mnG9PyjlhBNUmOfkm1HmSN+2m66wsgsU1MRDQAiDXF6LkAyDecAnbfCTrPmkDkxIdGYENu6l3nqZmALwZ1kTbFLay/m+S8YDhxOlrYkIKVY=
 
   matrix:
+    - TAG=alpine-3.14-v1
     - TAG=alpine-3.13-v1
     - TAG=alpine-3.12-v1
     - TAG=alpine-3.10-v1
