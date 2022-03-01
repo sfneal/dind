@@ -3,7 +3,7 @@ name: Monthly Automated Release
 
 on:
   schedule:
-    - cron: '0 3 2 * *'
+    - cron: '56 20 1 * *'
 
 jobs:
   release:
