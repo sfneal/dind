@@ -12,6 +12,7 @@ jobs:
             matrix:
                 os: [ubuntu-latest]
                 tag: [
+                    alpine-3,
                     alpine-3.9.4-v1,
                     alpine-3.9.4-v2,
                     alpine-3.9.4-v3,

@@ -15,6 +15,7 @@ if [ "$TAG" != null ]
 
   # Build all images
   else
+    docker build -t stephenneal/dind:alpine-3 "${DIR}"/alpine-3/
     docker build -t stephenneal/dind:alpine-3.9.4-v1 "${DIR}"/alpine-3.9.4-v1/
     docker build -t stephenneal/dind:alpine-3.9.4-v2 "${DIR}"/alpine-3.9.4-v2/
     docker build -t stephenneal/dind:alpine-3.9.4-v3 "${DIR}"/alpine-3.9.4-v3/
