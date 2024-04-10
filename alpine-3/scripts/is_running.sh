@@ -2,4 +2,4 @@
 
 current_container=${1}
 
-sudo docker inspect -f '{{.State.Running}}' $(sudo docker ps -aq --format {{.Names}} | grep ${current_container})
+sudo docker inspect -f '{{.State.Running}}' $(sudo docker ps -a --format "table {{.Names}}" | grep ${current_container})
