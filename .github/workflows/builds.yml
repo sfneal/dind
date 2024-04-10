@@ -20,6 +20,7 @@ jobs:
                     alpine-3.14,
                     alpine-3.15,
                     alpine-3.16,
+                    alpine-3.19,
                 ]
 
         name: TAG-${{ matrix.tag }}

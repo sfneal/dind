@@ -27,4 +27,5 @@ if [ "$TAG" != null ]
     docker push stephenneal/dind:alpine-3.14
     docker push stephenneal/dind:alpine-3.15
     docker push stephenneal/dind:alpine-3.16
+    docker push stephenneal/dind:alpine-3.19
 fi

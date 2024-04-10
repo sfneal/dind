@@ -25,4 +25,5 @@ if [ "$TAG" != null ]
     docker build -t stephenneal/dind:alpine-3.14 "${DIR}"/alpine-3.14/
     docker build -t stephenneal/dind:alpine-3.15 "${DIR}"/alpine-3.15/
     docker build -t stephenneal/dind:alpine-3.16 "${DIR}"/alpine-3.16/
+    docker build -t stephenneal/dind:alpine-3.19 "${DIR}"/alpine-3.19/
 fi
