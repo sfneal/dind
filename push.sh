@@ -21,10 +21,10 @@ if [ "$TAG" != null ]
     docker push stephenneal/dind:alpine-3.9.4-v2
     docker push stephenneal/dind:alpine-3.9.4-v3
     docker push stephenneal/dind:alpine-3.9.4-v4
-    docker push stephenneal/dind:alpine-3.10-v1
-    docker push stephenneal/dind:alpine-3.12-v1
-    docker push stephenneal/dind:alpine-3.13-v1
-    docker push stephenneal/dind:alpine-3.14-v1
-    docker push stephenneal/dind:alpine-3.15-v1
-    docker push stephenneal/dind:alpine-3.16-v1
+    docker push stephenneal/dind:alpine-3.10
+    docker push stephenneal/dind:alpine-3.12
+    docker push stephenneal/dind:alpine-3.13
+    docker push stephenneal/dind:alpine-3.14
+    docker push stephenneal/dind:alpine-3.15
+    docker push stephenneal/dind:alpine-3.16
 fi

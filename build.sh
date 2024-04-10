@@ -19,10 +19,10 @@ if [ "$TAG" != null ]
     docker build -t stephenneal/dind:alpine-3.9.4-v2 "${DIR}"/alpine-3.9.4-v2/
     docker build -t stephenneal/dind:alpine-3.9.4-v3 "${DIR}"/alpine-3.9.4-v3/
     docker build -t stephenneal/dind:alpine-3.9.4-v4 "${DIR}"/alpine-3.9.4-v4/
-    docker build -t stephenneal/dind:alpine-3.10-v1 "${DIR}"/alpine-3.10-v1/
-    docker build -t stephenneal/dind:alpine-3.12-v1 "${DIR}"/alpine-3.12-v1/
-    docker build -t stephenneal/dind:alpine-3.13-v1 "${DIR}"/alpine-3.13-v1/
-    docker build -t stephenneal/dind:alpine-3.14-v1 "${DIR}"/alpine-3.14-v1/
-    docker build -t stephenneal/dind:alpine-3.15-v1 "${DIR}"/alpine-3.15-v1/
-    docker build -t stephenneal/dind:alpine-3.16-v1 "${DIR}"/alpine-3.16-v1/
+    docker build -t stephenneal/dind:alpine-3.10 "${DIR}"/alpine-3.10/
+    docker build -t stephenneal/dind:alpine-3.12 "${DIR}"/alpine-3.12/
+    docker build -t stephenneal/dind:alpine-3.13 "${DIR}"/alpine-3.13/
+    docker build -t stephenneal/dind:alpine-3.14 "${DIR}"/alpine-3.14/
+    docker build -t stephenneal/dind:alpine-3.15 "${DIR}"/alpine-3.15/
+    docker build -t stephenneal/dind:alpine-3.16 "${DIR}"/alpine-3.16/
 fi
