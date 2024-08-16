@@ -1,5 +1,5 @@
 FROM alpine:3.12
-MAINTAINER Stephen Neal <stephen@stephenneal.net>
+LABEL org.opencontainers.image.authors="stephen@stephenneal.net"
 
 # Container name of Nginx service
 ENV container_name=webserver
